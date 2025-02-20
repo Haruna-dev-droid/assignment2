@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  background-color: hsl(221, 100%, 96%);
+}
+.container {
+  background-color: white;
+  width: 48%;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  height: 400px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.firstslide {
+  background-image: linear-gradient(hsl(241, 81%, 54%), hsla(256, 72%, 46%, 1));
+  width: 50%;
+  border-radius: 30px;
+  text-align: center;
+  height: 400px;
+  font-family: "Hanken Grotesk", serif;
+  color: hsl(221, 100%, 96%);
+}
+#circle {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  padding: 50px;
+  border-bottom-right-radius: 0;
+  border-radius: 500px;
+  width: 80px;
+  margin-left: 22%;
+  font-family: "Hanken Grotesk", serif;
+  font-size: 60px;
+}
+#hundred {
+  margin-top: -100px;
+}
+.secondslide {
+  background-color: rgb(255, 255, 255);
+  width: 45%;
+  border-radius: 30px;
+  font-family: "Hanken Grotesk", serif;
+}
+#one {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsla(0, 100%, 67%, 0.2);
+  width: 90%;
+  border-radius: 10px;
+  font-family: "Hanken Grotesk", serif;
+}
+#two {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsla(39, 100%, 56%, 0.2);
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Hanken Grotesk", serif;
+}
+#three {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsl(166, 100%, 37%, 0.2);
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Hanken Grotesk", serif;
+}
+#four {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsla(234, 85%, 45%, 0.2);
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Hanken Grotesk", serif;
+}
+#reaction {
+  padding-right: 70px;
+  color: hsl(0, 100%, 67%);
+}
+#memory {
+  padding-right: 70px;
+  color: hsl(39, 100%, 56%);
+}
+#verbal {
+  padding-right: 82px;
+  color: hsl(166, 100%, 37%);
+}
+#visual {
+  padding-right: 82px;
+  color: hsl(234, 85%, 45%);
+}
+#button {
+  text-align: center;
+  background-color: hsl(224, 30%, 27%);
+  width: 85%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 7px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+#link {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
