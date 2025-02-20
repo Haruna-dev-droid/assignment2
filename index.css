@@ -115,6 +115,11 @@ body {
 }
 @media only screen and (max-width: 375px) {
   .container {
-    max-width: 375px;
+    display: block;
+    width: 200%;
+    flex-wrap: wrap;
+  }
+  .secondslide {
+    width: 50%;
   }
 }
