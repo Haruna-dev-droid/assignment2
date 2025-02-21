@@ -114,12 +114,4 @@ body {
   color: white;
 }
 @media only screen and (max-width: 375px) {
-  .container {
-    display: block;
-    width: 200%;
-    flex-wrap: wrap;
-  }
-  .secondslide {
-    width: 50%;
-  }
 }
